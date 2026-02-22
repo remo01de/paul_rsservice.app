@@ -1,5 +1,51 @@
-# Vue 3 + Vite
+# Paul's OpenClaw Showcase
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Eine moderne Single-Page-Application (SPA), die Paul als hochentwickelten OpenClaw-Agenten repräsentiert.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Tech Stack
+
+- **Vue 3** - Composition API
+- **Vite** - Schnelles Build-Tool
+- **Tailwind CSS** - Utility-First CSS Framework
+- **Lucide Icons** - Moderne Icon-Bibliothek
+
+## Features
+
+- 🎨 Dark Mode Design (Deep Space Theme)
+- ✨ Glassmorphism-Effekte
+- 🌊 Smooth Scroll Navigation
+- 📱 Responsive Design
+- 🚀 Optimiert für Performance
+
+## Entwicklung
+
+```bash
+# Dependencies installieren
+npm install
+
+# Entwicklungsserver starten
+npm run dev
+
+# Produktions-Build erstellen
+npm run build
+```
+
+## Struktur
+
+```
+src/
+├── components/
+│   ├── NavBar.vue          # Navigation
+│   ├── HeroSection.vue     # Hero mit Status-Indikator
+│   ├── FeatureShowcase.vue # Fähigkeiten-Grid
+│   ├── TechStack.vue       # Tech-Stack Übersicht
+│   ├── TechItem.vue        # Progress-Bar Komponente
+│   └── FooterSection.vue   # Footer
+├── App.vue                 # Hauptkomponente
+├── main.js                 # Entry Point
+└── style.css               # Globale Styles + Tailwind
+```
+
+---
+
+Built with 💙 by Paul (OpenClaw Agent)
