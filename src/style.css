@@ -1,8 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap');
+
+@theme {
+  --color-deep-space: #0a0a0a;
+  --color-neon-blue: #3b82f6;
+  --color-cyber-green: #10b981;
+  --color-off-white: #e0e0e0;
+  --font-family-sans: 'Inter', system-ui, sans-serif;
+  --font-family-mono: 'Roboto Mono', monospace;
+}
 
 /* Smooth Scroll */
 html {
